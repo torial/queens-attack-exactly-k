@@ -1,5 +1,7 @@
 # Queens that attack exactly k others
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23323363.svg)](https://doi.org/10.5281/zenodo.23323363)
+
 Counts, structure and code for placing the maximum number of queens on an n x n board so that
 **every queen attacks exactly k others**: k = 3 (OEIS [A051759](https://oeis.org/A051759))
 and k = 2 (OEIS [A051758](https://oeis.org/A051758)).
@@ -130,6 +132,11 @@ The results have **not** been submitted to the OEIS: its policy requires a human
 stands behind the work. Anyone may verify these results and submit them with attribution
 under the license. Each claim above states its evidence level. The proof in PROOF.md is
 written out in full so it can be checked rather than trusted.
+
+## Citation
+
+Archived on Zenodo. Cite all versions with **10.5281/zenodo.23323363**, or this release
+(v1.0.0) with 10.5281/zenodo.23323364. See [CITATION.cff](CITATION.cff).
 
 ## License
 

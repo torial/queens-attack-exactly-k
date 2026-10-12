@@ -13,5 +13,6 @@
   "keywords": ["n-queens", "combinatorics", "enumeration", "OEIS", "A051759", "A051758", "A051569"],
   "datePublished": "2026-10-12",
   "version": "1.0.0",
+  "identifier": "https://doi.org/10.5281/zenodo.23323363",
   "isAccessibleForFree": true
 }

@@ -30,6 +30,14 @@ keywords:
   - Burnside's lemma
   - exhaustive search
   - dataset
+doi: "10.5281/zenodo.23323363"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23323363"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23323364"
+    description: "Version 1.0.0"
 license: CC-BY-4.0
 repository-code: "https://github.com/torial/queens-attack-exactly-k"
 date-released: "2026-10-12"
