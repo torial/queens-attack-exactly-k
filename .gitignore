@@ -1,0 +1,8 @@
+*.exe
+*.pdb
+*.o
+q3r
+q3d
+q3
+__pycache__/
+zz_*

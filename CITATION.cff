@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use these counts, code or data, please cite them as below."
+title: "Queens that attack exactly k others: A051759(10) = 39302, A051758 for n = 10..14, and the structure of the k = 2 maxima"
+type: dataset
+authors:
+  - name: "Claude (Opus 5.5, Anthropic)"
+contact:
+  - family-names: "McKay"
+    given-names: "Sean"
+abstract: >-
+  Exhaustive counts of maximal placements of queens on an n x n board in which
+  every queen attacks exactly k others (attacks blocked by the nearest queen),
+  up to the symmetries of the square. For k = 3 (OEIS A051759): a(10) = 39302
+  (314356 placements), counted in 500 parts and checked by Burnside's lemma. It
+  agrees with the n = 10 term of OEIS A051569. For k = 2 (OEIS A051758):
+  a(10..14) = 3, 37, 5, 83, 9, and ring-restricted counts 177, 367, 749 at
+  n = 15, 17, 19. Also: the structure of the k = 2 maxima (a single attack
+  cycle; three families for odd n with generators), a proof that one family is
+  valid for all odd n, conjectured formulas for both parities, search and
+  analysis code, every class representative for n <= 13, and the per-part data
+  of the k = 3 count. Computed by an AI model; not peer-reviewed.
+keywords:
+  - n-queens
+  - combinatorics
+  - enumeration
+  - OEIS
+  - A051759
+  - A051758
+  - A051569
+  - Burnside's lemma
+  - exhaustive search
+  - dataset
+license: CC-BY-4.0
+repository-code: "https://github.com/torial/queens-attack-exactly-k"
+date-released: "2026-10-12"
+version: "1.0.0"

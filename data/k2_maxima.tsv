@@ -1,0 +1,11 @@
+# k=2 maxima (N = 2n-2). search: full = unrestricted exhaustive search; ring1 = exhaustive over placements with every queen within 1 cell of the edge (a LOWER bound unless that restriction is proved).
+n	N	total	classes	search	nodes	secs
+9	16	120	15	full	11293351	13
+10	18	24	3	full	57879019	47
+11	20	296	37	full	291898402	365
+12	22	40	5	full	1462435713	572
+13	24	664	83	full	7558818967	6166
+14	26	72	9	full	39407930171	33963
+15	28	1416	177	ring1	298788494	1515
+17	32	2936	367	ring1	1714137330	680
+19	36	5992	749	ring1	9642524850	3638

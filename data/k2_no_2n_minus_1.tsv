@@ -1,0 +1,19 @@
+# k=2 with N = 2n-1 (empty-line budget 1): exhaustive search, regenerated 2026-10-12 with q3r (unrestricted).
+# n=2 is the positive control at the same budget (A051758(2) = 1 class). Every n = 3..17 finds none.
+n	N	total	classes	nodes
+2	3	4	1	14
+3	5	0	0	33
+4	7	0	0	125
+5	9	0	0	304
+6	11	0	0	938
+7	13	0	0	2413
+8	15	0	0	6889
+9	17	0	0	18362
+10	19	0	0	51247
+11	21	0	0	137739
+12	23	0	0	380656
+13	25	0	0	1035235
+14	27	0	0	2856188
+15	29	0	0	7842957
+16	31	0	0	21789333
+17	33	0	0	60520787

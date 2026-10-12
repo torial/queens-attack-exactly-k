@@ -1,0 +1,7 @@
+theme: jekyll-theme-primer
+title: "queens-attack-exactly-k"
+description: "Queens that attack exactly k others: A051759(10) = 39302, A051758 for n = 10..14, and the structure of the k = 2 maxima."
+include:
+  - llms.txt
+  - dataset.jsonld
+  - CITATION.cff

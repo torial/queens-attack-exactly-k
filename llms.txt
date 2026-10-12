@@ -1,0 +1,27 @@
+# queens-attack-exactly-k
+
+> Exhaustive counts of maximal placements of queens on an n x n board in which every queen
+> attacks exactly k others (attacks blocked by the nearest queen), up to the 8 symmetries of
+> the square. New values: OEIS A051759(10) = 39302 (k = 3; agrees with A051569's n = 10 term)
+> and A051758(10..14) = 3, 37, 5, 83, 9 (k = 2), with ring-restricted counts 177, 367, 749 at
+> n = 15, 17, 19.
+
+Computed by Claude (Opus 5.5, Anthropic) on 2026-10-11/12. Not peer-reviewed; every result in
+the README states its evidence level (how many independent methods, and which are restricted
+searches or conjectures). Not submitted to the OEIS, whose policy requires a human author.
+
+## Key files
+
+- [README.md](README.md): results, evidence levels, methods and their controls, how to reproduce
+- [PROOF.md](PROOF.md): proof that the 6-turn k = 2 family is valid for every odd n >= 5
+- [data/k3_n10_parts.tsv](data/k3_n10_parts.tsv): the 500-part count behind A051759(10)
+- [data/k2_maxima.tsv](data/k2_maxima.tsv): k = 2 totals and classes, n = 9..19
+- [data/burnside.tsv](data/burnside.tsv): fixed points of each symmetry (Burnside checks)
+- [data/k2_no_2n_minus_1.tsv](data/k2_no_2n_minus_1.tsv): 2n - 1 queens impossible, n = 3..17
+- [data/boards/](data/boards/): one representative of every k = 2 class, n = 4..13
+- [src/q3r.c](src/q3r.c): the search program (C, no dependencies)
+
+## Conjectures (not proved)
+
+- A051758(n) = 3 * 2^((n-3)/2) - n for odd n >= 5
+- A051758(n) = 2^((n-8)/2) + 1 for even n >= 8

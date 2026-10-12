@@ -1,0 +1,7 @@
+class 1:
+Q.QQ.
+Q....
+...Q.
+.Q..Q
+Q....
+n=5 K=2 N=8 budget=4: total=8 classes=1 nodes=8174

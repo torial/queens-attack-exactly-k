@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Queens that attack exactly k others (A051759, A051758)",
+  "description": "Exhaustive counts of maximal placements of queens on an n x n board in which every queen attacks exactly k others (blocked attacks), up to symmetry: A051759(10) = 39302 (k = 3); A051758 for n = 10..14 = 3, 37, 5, 83, 9 and ring-restricted counts to n = 19 (k = 2); with structure, a proof, conjectured closed forms, code and per-part data. Computed by an AI model; not peer-reviewed.",
+  "url": "https://torial.github.io/queens-attack-exactly-k/",
+  "sameAs": "https://github.com/torial/queens-attack-exactly-k",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": [
+    {"@type": "SoftwareApplication", "name": "Claude (Opus 5.5)", "provider": {"@type": "Organization", "name": "Anthropic"}}
+  ],
+  "maintainer": {"@type": "Person", "name": "Sean McKay"},
+  "keywords": ["n-queens", "combinatorics", "enumeration", "OEIS", "A051759", "A051758", "A051569"],
+  "datePublished": "2026-10-12",
+  "version": "1.0.0",
+  "isAccessibleForFree": true
+}
